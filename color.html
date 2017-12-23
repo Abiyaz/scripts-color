@@ -16,7 +16,10 @@
   left: 32.5%;
   width:600px;
   }.
-  .cls-1{fill:#fff;}.cls-2{fill:#c6601c;}.cls-3{fill:#050505;}.cls-4{fill:none;stroke:#000;stroke-miterlimit:10;}
+  .cls-1{fill:#fff;}
+  .cls-2{fill:#c6601c;}
+  .cls-3{fill:#050505;}
+  .cls-4{fill:none;stroke:#000;stroke-miterlimit:10;}
   #main{
     text-align: center;
   }
@@ -27,18 +30,18 @@
     position: absolute;
     top: 50%;
     left: 45%;
-	  padding: 10px 40px;
+    padding: 10px 40px;
     margin: 0px 10px 10px 0px;
     float: left;
-	  border-radius: 10px;
-	  font-family: 'Pacifico', cursive; font-size: 25px;color: #FFF;text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive; font-size: 25px;color: #FFF;text-decoration: none;
   }
 </style>
 
 <style></style>
 <section>
   <div id="main">
-  <svg id="octocat" xmlns="http://www.w3.org/2000/svg" width="400px" height="340px" viewBox="-60 10 520 520" style="fill:#fff;stroke: #000; stroke-opacity: 0.1">
+  <svg id="image" xmlns="http://www.w3.org/2000/svg" width="400px" height="340px" viewBox="-60 10 520 520" style="fill:#fff;stroke: #000; stroke-opacity: 0.1">
    <g data-name="&lt;Gruppe&gt;">
      <path class="cls-1" transform="translate(-.23)" d="M329.41,155.79c-4.83.53-6,.37-6-.81,0-1,1.62-1.66,4.94-2.08,2.72-.34,6-.83,7.28-1.09,2.55-.51,3.11.75,1,2.34C336,154.69,332.7,155.43,329.41,155.79Z"/>
      <path class="cls-1" transform="translate(-.23)" d="m329.88 157.43c2.7 0 3 0.23 1.87 1.51-1.38 1.62-8.32 2.13-8.32 0.62 0-1.24 2.68-2.13 6.45-2.13z"/>
@@ -122,7 +125,7 @@
       #octo       { fill:   #C3E4D8; }
 */
   var _currentFill = "fill:#000";
-    $("#octocat").click(function (event) { $(event.target).attr('style', _currentFill); })
+    $("#image").click(function (event) { $(event.target).attr('style', _currentFill); })
     var $swatches = $("#swatches");
     $swatches.click(function (event) {
       $swatch = $(event.target);
